@@ -185,7 +185,7 @@ class PopupExampleScroll extends React.Component {
 }
 
 PopupExampleScroll.childContextTypes = {
-    zIndexGroupLevel: React.PropTypes.number,
+    zIndexGroupLevel: PropTypes.number,
 };
 
 class PopupExampleMountVisible extends React.Component {
